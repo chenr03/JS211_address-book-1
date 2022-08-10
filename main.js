@@ -1,3 +1,4 @@
+
 'use strict';
 // * Store empty variables
 let addressArray;
@@ -6,7 +7,6 @@ window.onload = function () {
   //  *Call functions on page load.
   getAddress();
 };
-
 const consoleData = () => {
   console.log(addressArray);
   // console.log(addressArray.results[0]);

@@ -35,9 +35,9 @@ const getGender = (array) => {
 
         <h1>${contact.name.first} ${contact.name.last}</h1>
         <p>(${contact.gender})</p>
-        <h6>${contact.email}</h6>
-        <h6>${contact.phone} (home)</h6>
-        <h6>${contact.cell} (cell)</h6>
+        <h6>${contact.email} - Email</h6>
+        <h6>${contact.phone} Home</h6>
+        <h6>${contact.cell} Cell</h6>
         <h6>${contact.location.street.number} ${contact.location.street.name}</h6>
         <h6>${contact.location.city}</h6>
         <h6>${contact.location.state}</h6>

@@ -1,4 +1,5 @@
 'use strict';
+
 // * Store empty variables
 let contactArray;
 // This function waits for the web page to be loaded, when it does it will run the code inside of it which happens to be getPosts()
@@ -54,12 +55,4 @@ const displayUserData = () => {
   getGender(contactArray);
 };
 
-// const displayFivePost = () => {
-//   const showFivePosts = document.getElementById('five-posts');
-//   fivePosts.map((post, index) => {
-//     const li = `<li>#${index + 1}, Title: ${post.title}: ${
-//       post.body
-//     }, by user: ${post.userId}</li>`;
-//     showFivePosts.insertAdjacentHTML('beforeend', li);
-//   });
-// };
+

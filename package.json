@@ -1,0 +1,30 @@
+{
+  "name": "js211_address-book-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "axios": "^0.27.2",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "follow-redirects": "^1.15.1",
+    "form-data": "^4.0.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "mocha": "^10.0.0"
+  },
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenr03/JS211_address-book-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenr03/JS211_address-book-1/issues"
+  },
+  "homepage": "https://github.com/chenr03/JS211_address-book-1#readme"
+}
